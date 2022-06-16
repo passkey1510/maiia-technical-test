@@ -13,6 +13,7 @@ const Pratitioner = () => {
     <div style={{
       border: '1px solid red'
     }}>
+      <span>Practitioner info: </span>
       {prat.firstName} {prat.lastName}
     </div>
   )

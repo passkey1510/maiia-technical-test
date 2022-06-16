@@ -13,6 +13,7 @@ const Avai = () => {
     <div style={{
       border: '1px solid blue'
     }}>
+      <span>Availabilities:</span>
       {avail.map(a => {
         return <div>{a.startDateTime}</div>
       })}
